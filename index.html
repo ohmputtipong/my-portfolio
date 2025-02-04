@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WPRW2SMF4T"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-WPRW2SMF4T");
+    </script>
+   
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"
+    />
+    <meta name="title" content="puttipongcharoen">
+    <meta name="description" content="This is a personal website for Puttipong Charoen Who is a web developer focusing on Web Content">
+    <meta name="keywords" content="Portfolio Website,Web developer, Programmer">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content=" days">
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Puttipong Charoen - Portfolio</title>
+  </head>
+  <body>
+    <section class="nav-bar">
+      <div class="nav">
+        <div class="logo">
+          <ul>
+            <li>
+              <a class="logo" href="#home">ohm<span>.dev</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu">
+          <ul class="topnav" id="myTopnav">
+            <a onclick="closeMenu()" class="menu-box" href="#home"
+              ><li>Home</li></a
+            >
+            <a onclick="closeMenu()" class="menu-box" href="#skills"
+              ><li>Skills</li></a
+            >
+            <a onclick="closeMenu()" class="menu-box" href="#about"
+              ><li>About</li></a
+            >
+            <a onclick="closeMenu()" class="menu-box" href="#portfolio"
+              ><li>Portfolio</li></a
+            >
+          </ul>
+          <ul class="hamburger">
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <section id="home">
+        <div class="home__hello">
+          <h3>Hello, I'm</h3>
+          <h1>Puttipong Charoen</h1>
+          <h3 class="greenText">Web Developer</h3>
+          <p>
+            I specialize in the implementation of web designs through coding.
+          </p>
+          <a href="#portfolio">
+            <button><span>Portfolio</span></button>
+          </a>
+        </div>
+        <div class="home__image">
+          <div class="image">
+            <img src="./assets/images/personal-image.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <h1>My Skills</h1>
+        <div class="skill-group">
+          <!-- <div class="skill-box">
+            <div class="skill-logo">
+              <img src="./assets/images/logo-php-512.png" alt="" />
+            </div>
+            <span>PHP</span>
+          </div> -->
+          <!-- <div class="skill-box">
+            <div class="skill-logo">
+              <img src="./assets/images/logo-laravel-icon-256.png" alt="" />
+            </div>
+            <span>Laravel</span>
+          </div> -->
+          <div class="skill-box">
+            <div class="skill-logo">
+              <img src="./assets/images/logo-wordpress.png" alt="" />
+            </div>
+            <span>WordPress</span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-logo">
+              <img src="./assets/images/logo-html-5.png" alt="" />
+            </div>
+            <span>HTML</span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-logo">
+              <img src="./assets/images/logo-css-3-256.png" alt="" />
+            </div>
+            <span>CSS</span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-logo">
+              <img src="./assets/images/logo-javascript-icon-256.png" alt="" />
+            </div>
+            <span>Javascript</span>
+          </div>
+          <div class="skill-box">
+            <div class="skill-logo" style="margin-top: 10px">
+              <img src="./assets/images/logo-woo-commerce-icon.svg" alt="" />
+            </div>
+            <span>Woocommerce</span>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about__image">
+          <img src="./assets/images/about-image.jpg" alt="" />
+        </div>
+        <div class="about__info">
+          <h3>About Me</h3>
+          <h1>Get To Know Me</h1>
+          <p>
+            My name is Puttipong Charoen. I'm a passionate web developer that
+            specializes in HTML, CSS, WordPress. I create original
+            and effective designs that take project deliverables into account by
+            transforming design mockups into code. My meticulous attention to
+            detail and ability to work under pressure ensures that projects are
+            completed on schedule and under budget. I'm your man if you need
+            technical assistance churning out vital stuff to share with the
+            world. Please contact me if your company needs a competent team
+            player.
+          </p>
+          <div class="about__info-btn-groups">
+            <a
+              href="https://twitter.com/ohmputtipongg?s=21&t=mIlAOHCjGGk9UC-Fs6xgoQ"
+              target="_blank"
+              class="about--btn twitter"
+            >
+              <img src="assets/images/twitter-logo.svg" alt="" />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="about--btn linkedin"
+            >
+              <img src="assets/images/linkedin-logo.svg" alt="" />
+            </a> 
+            <a
+              href="https://github.com/ohmputtipong"
+              target="_blank"
+              class="about--btn linkedin"
+            >
+              <img src="assets/images/GitHub-Mark.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h3>Portfolio</h3>
+        <h1>Web Developer Portfolio</h1>
+        <div class="portfolio-group">
+          <div class="portfolio-box">
+            <div class="info-box">
+              <h2> HTML CSS Facebook clone</h2>
+              <br />
+              <p>
+                This is the landing page clone which i took a references from
+                Facebook website.
+              </p>
+              <div class="technologies">
+                <h4>Stacks:&nbsp; HTML CSS</h4>
+              </div>
+               <div class="demo-box"> 
+                <a
+                  href="#"
+                  target="_blank"
+                  class="demo-info-box"
+                >
+                </a>
+                <a
+                  class="demo-info-box"
+                  target="_blank"
+                  href="#"
+                > 
+                </a> 
+              </div>  
+              <a
+                href="https://github.com/ohmputtipong/my-fb-clone"
+                target="_blank"
+                class="github-project"
+              >
+                <img src="assets/images/GitHub-Mark.png" alt="" />
+              </a>
+            </div>
+            <a
+              href="https://ohmfbclone.onrender.com/"
+              target="_blank"
+            >
+              <img src="./assets/images/fbclone.png" alt="" />
+              <div class="top-layer">
+                <span>Facebook Clone</span>
+              </div>
+            </a>
+          </div>
+          <div class="portfolio-box">
+            <div class="info-box">
+              <h2>HTML CSS airbnb Clone</h2>
+              <br />
+              <p>
+                This is the landing page clone which i took a references from
+                airbnb website.
+              </p>
+              <div class="technologies">
+                <h4>Stacks:&nbsp; HTML CSS</h4>
+              </div>
+              <div class="demo-box">
+                <!-- <a
+                  href="https://airbnbsupakorn.netlify.app/"
+                  target="_blank"
+                  class="demo-info-box"
+                >
+                  <h3>Live Demo</h3>
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </a> -->
+              </div>
+              <a
+                href="https://github.com/ohmputtipong/my-airbnb-clone"
+                target="_blank"
+                class="github-project"
+              >
+                <img src="assets/images/GitHub-Mark.png" alt="" />
+              </a>
+            </div>
+            <a href="https://my-airbnb-clone-web.onrender.com/#" target="_blank">
+              <img src="./assets/images/airbnbclone.png" alt="" />
+              <div class="top-layer">
+                <span>airbnb Clone</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="footer">
+      <div class="footer__container">
+        <span>Created by Puttipong Charoen © 2025</span>
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./main.js" type="text/javascript"></script>
+  </body>
+</html>

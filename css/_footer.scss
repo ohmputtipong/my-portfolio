@@ -1,0 +1,49 @@
+:root {
+  --backgroundFooter: #f2f5fb;
+  --textFooter: #6f6b80;
+}
+#footer {
+  width: 100%;
+
+  .footer__container {
+    width: 100%;
+    background-color: var(--backgroundFooter);
+    padding: 5.7rem 0px 6.1rem 22rem;
+    padding: 0 auto;
+
+    span {
+      color: var(--textFooter);
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  #footer {
+    .footer__container {
+      padding: 5.7rem 0px 6.1rem 14rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #footer {
+    .footer__container {
+      padding: 5.7rem 0px 6.1rem 6rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #footer {
+    .footer__container {
+      padding: 5.7rem 0px 6.1rem 5rem;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  #footer {
+    .footer__container {
+      padding: 5.7rem 0px 6.1rem 5rem;
+    }
+  }
+}

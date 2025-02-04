@@ -1,0 +1,152 @@
+:root {
+  --mainColorText: #395144;
+  --textGrey: #9c9aa7;
+}
+#about {
+  padding-top: 16.2rem;
+  width: 100%;
+  display: flex;
+
+  .about__image {
+    width: 50%;
+    max-height: 800px;
+    padding-right: 60px;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 2.5rem;
+    }
+  }
+
+  .about__info {
+    padding-left: 6rem;
+    padding-top: 3rem;
+    width: 50%;
+
+    h3 {
+      font-size: 2.2rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      color: var(--mainColorText);
+    }
+    h1 {
+      font-size: 4rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: var(--textGrey);
+      margin-bottom: 4rem;
+    }
+
+    .about__info-btn-groups {
+      display: flex;
+      width: 100%;
+      gap: 2rem;
+
+      .about--btn {
+        max-width: 3rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+        transition: all 0.2s ease-in-out;
+        transform: translate(0, 0);
+        &:hover {
+          transform: translate(0, -0.5rem);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #about {
+    .about__image {
+      padding-left: 60px;
+      padding-right: 0;
+    }
+    .about__info {
+      padding-right: 6rem;
+      padding-top: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    .about__info {
+      padding-right: 0;
+      padding-top: 0rem;
+      padding-left: 0;
+      h1 {
+        font-size: 3rem;
+      }
+      h3 {
+        padding-top: 5rem;
+      }
+
+      .about__info-btn-groups {
+        justify-content: center;
+      }
+    }
+    .about__image {
+      padding-left: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #about {
+    .about__image {
+      width: 70%;
+    }
+    .about__info {
+      width: 100%;
+      h3 {
+        font-size: 2.6rem;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        text-align: center;
+        padding: 0 3rem;
+      }
+      .about__info-btn-groups {
+        .about--btn {
+          max-width: 5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  #about {
+    .about__image {
+      width: 60%;
+    }
+    .about__info {
+      width: 100%;
+      h3 {
+        font-size: 2.6rem;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        text-align: center;
+      }
+      .about__info-btn-groups {
+        .about--btn {
+          max-width: 5rem;
+        }
+      }
+    }
+  }
+}

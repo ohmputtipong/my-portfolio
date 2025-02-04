@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  height: -webkit-fill-available;
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  @media only screen and (max-width: 68.75em) {
+    html {
+      font-size: 50%;
+    }
+  }
+}
+
+// @font-face {
+//   font-family: "Jost", sans-serif;
+//   src: url(./assets/fonts/Jost-VariableFont_wght.ttf);
+// }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.6 !important;
+  font-size: 1.6rem !important;
+  background-color: #f6fcfb;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
