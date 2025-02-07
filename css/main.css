@@ -52,7 +52,7 @@ body {
   font-weight: 400;
   line-height: 1.6 !important;
   font-size: 1.6rem !important;
-  background-color: #f6fcfb;
+  background-color: #FBFBFB;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -62,7 +62,7 @@ code {
 }
 
 :root {
-  --mainColorText: #aa8b56;
+  --mainColorText: #FFDDAE;
   --textGrey: #9c9aa7;
 }
 
@@ -89,7 +89,7 @@ code {
   font-weight: 600;
 }
 .nav-bar .nav .logo span {
-  color: #df7716;
+  color: #FFDDAE;
 }
 .nav-bar .nav .menu {
   display: flex;
@@ -298,7 +298,7 @@ code {
 :root {
   --mainColorText: #df7716;
   --textGrey: #9c9aa7;
-  --TextFrontend: #0c5ae7;
+  --TextFrontend: #D9DFC6;
   --portfolioHover: #f4a41a;
 }
 
@@ -633,7 +633,7 @@ code {
   }
 }
 :root {
-  --mainColorText: #aa8b56;
+  --mainColorText: #FFDDAE;
   --textGrey: #9c9aa7;
 }
 
@@ -643,7 +643,7 @@ code {
 }
 #skills h3 {
   text-align: center;
-  color: #df7716;
+  color: #FFDDAE;
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -729,7 +729,7 @@ code {
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 1rem;
-  color: #df7716;
+  color: #FFDDAE;
 }
 #about .about__info h1 {
   font-size: 4rem;
@@ -835,7 +835,7 @@ code {
   }
 }
 :root {
-  --mainColorText: #aa8b56;
+  --mainColorText: #FFDDAE;
   --textGrey: #9c9aa7;
 }
 
@@ -847,7 +847,7 @@ code {
 #portfolio h3 {
   text-align: center;
   font-size: 2.2rem;
-  color: #df7716;
+  color: #FFDDAE;
   margin-bottom: 1rem;
   font-weight: 900;
 }
@@ -932,8 +932,8 @@ code {
 #portfolio .portfolio-group .portfolio-box a .top-layer {
   width: 100%;
   height: 100%;
-  background: rgb(223, 208, 71);
-  background: linear-gradient(307deg, rgb(223, 208, 71) 0%, rgb(170, 139, 86) 100%);
+  background: rgb(6,98,166);
+  background: linear-gradient(90deg, rgba(6,98,166,1) 35%, rgba(198,231,255,1) 93%);
   border-radius: 2.5rem;
   position: absolute;
   top: 0;
